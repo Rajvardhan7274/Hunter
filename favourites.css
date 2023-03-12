@@ -1,0 +1,34 @@
+/*background image*/
+body{
+    background-image: url('https://wallpapercave.com/wp/ZaHQ4Jf.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+/*heading for no favourites*/
+h5{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+/* all links styling */
+a {
+    color: rgb(6,3,3);
+    font-size: 1rem;
+}
+a:hover{
+    animation: glowing ease-out 1s ;
+}
+@keyframes glowing {
+    0%{
+        font-size: 1rem;
+    }
+   
+    100%{
+        font-size: 1.5rem;
+        
+    }
+    
+}

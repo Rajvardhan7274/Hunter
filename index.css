@@ -1,0 +1,58 @@
+/*search box */
+.search-box-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*background image */
+body{
+    background-image: url('https://www.comicbasics.com/wp-content/uploads/2020/01/Top-10-Marvel-Superheroes-That-Have-Doctorates.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* search box width */
+.search-box-container .input-group{
+    width: 40%;
+}
+
+/* searching container */
+.search-results-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* card of heros */
+.search-results-container .card{
+    width: 40%;
+    border: none;
+}
+
+/* curson on hover */
+.input-group-text{
+    cursor: pointer;
+}
+
+/* all links hover */
+a {
+    color: rgb(6,3,3);
+    font-size: 1rem;
+}
+a:hover{
+    animation: glowing ease-out 1s ;
+}
+@keyframes glowing {
+    0%{
+        font-size: 1rem;
+    }
+   
+    100%{
+        font-size: 1.5rem;
+        
+    }
+    
+}

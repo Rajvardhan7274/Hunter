@@ -1,0 +1,48 @@
+/* align cards in center and set background */
+body{
+    background-image: url('https://wallpapercave.com/wp/ZaHQ4Jf.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* group items in list */
+.list-group-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*details of super hero */
+.superHero-details{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*super hero detail cards */
+.superHero-details .card{
+    width: 25%;
+}
+
+/* all link */
+a{
+    color: rgb(6,3,3);
+    font-size: 1rem;
+}
+a:hover{
+    animation: glowing ease-out 1s ;
+}
+@keyframes glowing {
+    0%{
+        font-size: 1rem;
+    }
+   
+    100%{
+        font-size: 1.5rem;
+        
+    }
+    
+}
